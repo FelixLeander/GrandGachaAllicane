@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GrandGachaAllicane
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Original by Osu's: oralekin, LittleEndu, ekgame
 // @author       u/FelixLeadner, Lander#2332
 // @match        https://hot-potato.reddit.com/embed*
@@ -15,7 +15,7 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         // Load the image
         const image = document.createElement("img");
-        image.src = "https://raw.githubusercontent.com/FelixLeander/GrandGachaAllicane/main/images/3by3Grid48.png";
+        image.src = "https://raw.githubusercontent.com/FelixLeander/GrandGachaAllicane/main/images/huh.png";
         image.onload = () => {
             image.style = `position: absolute; top: 0; right: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
         };
