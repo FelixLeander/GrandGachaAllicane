@@ -1,7 +1,6 @@
-// ==UserScript==
 // @name         GrandGachaAllicane
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  Original by Osu's: oralekin, LittleEndu, ekgame
 // @author       u/FelixLeadner, Lander#2332
 // @match        https://hot-potato.reddit.com/embed*
@@ -10,8 +9,6 @@
 // @downloadURL  https://github.com/FelixLeander/GrandGachaAllicane/raw/main/userscript.user.js
 // @grant        none
 // ==/UserScript==
-
-// Original: https://github.com/iratekalypso/r-place-2022/blob/main/better_alliance_overlay.user.js
 
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
@@ -39,3 +36,5 @@ if (window.top !== window.self) {
         }, 100);
     }, false);
 }
+
+// Original: https://github.com/iratekalypso/r-place-2022/blob/main/better_alliance_overlay.user.js
