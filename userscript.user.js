@@ -19,9 +19,9 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         // Load the image
         const image = document.createElement("img");
-        image.src = "https://raw.githubusercontent.com/FelixLeander/GrandGachaAllicane/main/overlay/grid48.png";
+        image.src = "https://raw.githubusercontent.com/FelixLeander/GrandGachaAllicane/main/overlay/overlayGrand.png";
         image.onload = () => {
-            image.style = `position: absolute; top: 0; right: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
+            image.style = `position: absolute; right: 0; top: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
         };
 
         // Add the image as overlay
