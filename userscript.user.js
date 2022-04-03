@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GrandGachaAllicane
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Original by Osu's: oralekin, LittleEndu, ekgame
 // @author       u/FelixLeadner, Lander#2332
 // @match        https://hot-potato.reddit.com/embed*
