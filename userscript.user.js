@@ -17,7 +17,7 @@ if (window.top !== window.self) {
         const image = document.createElement("img");
         image.src = "https://raw.githubusercontent.com/FelixLeander/GrandGachaAllicane/main/images/3by3Grid48.png";
         image.onload = () => {
-            image.style = `position: absolute; top: 0; left: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
+            image.style = `position: absolute; top: 0; right: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
         };
 
         // Add the image as overlay
