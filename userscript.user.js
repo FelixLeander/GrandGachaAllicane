@@ -1,3 +1,7 @@
+//To use this you need Tampermonkey.
+//If you see this on github press the "raw" button to install this is Tampermonkey.
+
+
 // ==UserScript==
 // @name         GrandGachaAllicane
 // @namespace    http://tampermonkey.net/
