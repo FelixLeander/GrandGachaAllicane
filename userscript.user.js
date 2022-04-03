@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         GrandOrderOverlay
+// @name         GrandGachaAllicane
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  Original by Osu's: oralekin, LittleEndu, ekgame
 // @author       u/FelixLeadner, Lander#2332
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/Walter-Hulsebos/r-MonaLisaClan/blob/main/alliance_overlay.user.js
-// @downloadURL  https://github.com/Walter-Hulsebos/r-MonaLisaClan/raw/main/alliance_overlay.user.js
+// @updateURL    https://github.com/FelixLeander/GrandGachaAllicane/blob/main/userscript.user.js
+// @downloadURL  https://github.com/FelixLeander/GrandGachaAllicane/raw/main/userscript.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -17,7 +17,7 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         // Load the image
         const image = document.createElement("img");
-        image.src = "https://media.discordapp.net/attachments/959466392686559252/960180289383047208/unknown-11.png?width=685&height=460";
+        image.src = "https://raw.githubusercontent.com/FelixLeander/GrandGachaAllicane/main/images/guda.png";
         image.onload = () => {
             image.style = `
             position: absolute;
@@ -27,7 +27,6 @@ if (window.top !== window.self) {
             height: ${image.height/3}px;
             image-rendering: pixelated;
             z-index: 1`;
-            image.style =
         };
 
         // Add the image as overlay
