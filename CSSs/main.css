@@ -1,0 +1,38 @@
+.gradientBoarder {
+background: linear-gradient(to right, red, purple);
+padding: 5px;
+}
+
+.centerStart {
+  max-width: 500px;
+  margin: auto;
+}
+
+.centerMiddle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  font-style: bold;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+img {
+  width: 600px;
+  height: 300px;
+}
+
+body {
+  background-image: url(other/gachas.jpg);
+  background-color: white;
+  background-size: cover;
+}
